@@ -59,15 +59,46 @@ section{
 
 }
 
+.area::-webkit-scrollbar{
+    width: 8px;
+}
+
+.area::-webkit-scrollbar-thumb{
+    background-color: #0A3871;
+    border-radius: 5px;
+}
+
 .texto-encriptado{
+    width: 100%;
+    height: 100%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 150%;
     color: #495057;
+    resize: none;
+    background-color: white;
+    border-style: none;
+    outline: none;
+    
+    
+   
 
 }
+
+.texto-encriptado::-webkit-scrollbar{
+    width: 8px;
+    
+    
+}
+.texto-encriptado::-webkit-scrollbar-thumb{
+    background: #0A3871;
+    border-radius: 5px;
+    
+    
+}
+
 
 
 .condicional{
@@ -142,6 +173,7 @@ section{
     padding-top: 100px;
     left: 1032px;
     top: 283px;
+    
 }
 
 .contenedor-h3{
@@ -155,6 +187,7 @@ section{
     text-align: center;
     color: #343A40;
     padding-top: 20%;
+    
 }
 
 .contenedor-parrafo{
@@ -168,17 +201,21 @@ section{
     color: #495057;
     text-align: center;
     padding-top: 20%;
+    
 
 }
 
 .contenedor-resultado{
     padding: 32px;
-    height: 70%
+    height: 70%;
+
+    
 }
 
 .contenedor-copiar{
     padding: 20px;
     text-align: center;
+    
 } 
 
 .boton-copiar:hover{
@@ -210,7 +247,7 @@ section{
     background-color: #0A3871;
     border-style: black;
     margin: black;
-    color: white
+    color: white;
 
 }
 
@@ -250,7 +287,6 @@ section{
     position: flex;
     padding-top: 70px;
 }
-
 
 
 .ocultar{
